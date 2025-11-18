@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#530606;
+        display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.btn{
+    padding:15px 15px;
+    background-color: rgb(89, 164, 245);
+    border-radius:8px;
+    border: none;
+    font-size: 1.3em;
+}
+/* .photo-section{} */
+
+img{
+    width:400px;
+    height:400px;
+    margin: 8px;
+    border-radius:10px;
+    opacity: 0.6;
+
+    
+}
+img:hover{
+    /* box-shadow: rgba(232, 216, 198, 7); */
+    opacity:0.9;
+    transition: 10ms;
+    cursor: pointer;
+    /* shadow */
+}
