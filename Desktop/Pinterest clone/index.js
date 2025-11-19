@@ -1,11 +1,20 @@
 const button=document.querySelector("button")
-button.addEventListener("click",() =>{
-    const random=Math.floor(Math.random()*2000)
-        
-        img.src="https://picsum.photos/300?random"
+button.addEventListener("click",() =>{randomimages()})
 
-    // make a random number between 1 and 2k, only whole numbers
-    // add it top the api 
-    // add to the image tage through src 
-})
+function randomimages(){
+    const photo_section=document.getElementById("photo-section")
+    for (let index = 0; index < 5; index++) {
+        
+        const random=Math.floor(Math.random()*100)
+        const img = document.createElement("img")
+        img.src=`https://picsum.photos/${random}`
+        img.alt="photo here"
+        photo_section.appendChild(img)
+    
+    
+    }
+    
+}
+
+
 
