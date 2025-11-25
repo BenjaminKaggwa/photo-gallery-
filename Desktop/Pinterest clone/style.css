@@ -21,6 +21,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    
+
     width: 100%;
     padding: 15px 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -105,4 +107,35 @@ nav {
 
 .btn:hover {
     background-color: #ad081b;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    /* background-color: ; */
+    text-align: center;
+    font-size: 1em;
+}
+.search-container button{
+    padding: 5px 20px;
+    background-color: #e60023; /* Pinterest Red */
+    color: white;
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.search-container{
+    gap: 7px;
+    margin: 6px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+
+
+    
 }
