@@ -28,9 +28,9 @@ export default function FacilityCard({ facility }) {
           <span className="text-green-700 font-bold text-lg">
             KSH {facility.pricePerHour.toLocaleString()}/hr
           </span>
-          <a>
-            href={`/facilities/${facility.id}`}
-            className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors"
+          
+            <a href={`/facilities/${facility.id}`}
+            className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors">
           
             Book Now
           </a>

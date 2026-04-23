@@ -17,8 +17,8 @@ const sportEmoji = {
   TENNIS: '🎾',
 }
 export default async function FacilityPage({ params }) {
-  const facility = await getFacility(params.id)
-
+  const { id } = await params
+  const facility = await getFacility(id)
   return (
     <main className="min-h-screen bg-gray-50">
       <Navbar />
